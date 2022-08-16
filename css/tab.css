@@ -1,0 +1,27 @@
+body{font-size: 16px; font-family: 'IBM Plex Sans KR', sans-serif;}
+#board{
+    margin: 100px 0 0 0;
+	width:1320px
+}
+
+#board>li{
+	float:left;
+	width:50%;
+}
+
+#board>li>a{
+	font-weight: 600;
+	display:block;
+	padding:10px 10px;
+	border:5px solid #fff;
+	text-align:center;
+	
+}
+
+#board>.on>a{
+	font-weight:bold;
+	
+}
+
+
+.on{height: 500px; background-color: blue; transition: all 1s ; transform: translateY(-50px);}
